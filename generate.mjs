@@ -6,8 +6,8 @@ const sites = sites_txt.split("\n").filter(Boolean)
 
 const redirects = sites
 	.flatMap((site, index) => [
-		`/prev/${site} ${sites.at(index - 1)} 301`,
-		`/next/${site} ${sites[(index + 1) % sites.length]} 301`,
+		`/prev/${site} https://${sites.at(index - 1)} 301`,
+		`/next/${site} https://${sites[(index + 1) % sites.length]} 301`,
 	])
 	.join("\n")
 
