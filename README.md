@@ -14,6 +14,7 @@
 - .sh
 - .mov
 - .com
+- .md
 
 ## How to join
 
