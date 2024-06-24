@@ -12,4 +12,7 @@ const redirects = sites
 	.join("\n")
 
 await dist
-writeFile("dist/_redirects", redirects)
+writeFile(
+	"dist/_redirects",
+	redirects + "\n/ https://github.com/Jack5079/webring.zip 301"
+)
