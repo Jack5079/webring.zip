@@ -3,19 +3,6 @@
 
 [Webring.zip](https://webring.zip) is a [webring](https://en.wikipedia.org/wiki/Webring) for people with a file extension as their TLD.
 
-## Accepted TLDs
-
-- .zip
-- .cab
-- .rs
-- .cc
-- .pl
-- .pm
-- .sh
-- .mov
-- .com
-- .md
-
 ## How to join
 
 Submit a pull request adding your site to [sites.txt](./sites.txt). Then, add the links:
